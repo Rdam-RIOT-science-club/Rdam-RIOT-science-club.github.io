@@ -1,8 +1,5 @@
 /*
 
-Tooplate 2117 Infinite Loop
-
-https://www.tooplate.com/view/2117-infinite-loop
 
 */
 
@@ -132,7 +129,7 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #ff5252;
+  color: #707070;
 }
 
 .tm-navbar.scroll .navbar-brand {
@@ -316,7 +313,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(../img/bg_team.jpg);
+    background-image: url(../img/bg_team_phone.jpg);
   }
 }
 
@@ -392,14 +389,14 @@ blockquote {
 }
 
 .tm-testimonials-carousel .slick-dots li button:before {
-  color: white;
+  color: #ff5252;
   opacity: 0.5;
 }
 
 .tm-testimonials-carousel .slick-dots li button:hover:before,
 .tm-testimonials-carousel .slick-dots li button:focus:before,
 .tm-testimonials-carousel .slick-dots li.slick-active button:before {
-  color: white;
+  color: #ff5252;
   opacity: 1;
 }
 
@@ -552,7 +549,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: #707070;
-  background-color: #001828;
+  background-color: #d7effb;
   background-image: url(../img/background3.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -667,7 +664,7 @@ p {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1275px;
+    max-width: 2000px;
   }
 
   .tm-container-gallery {
