@@ -33,6 +33,10 @@
        url('../Roboto/fonts/roboto-condensed-v18-latin-regular.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
 }
 
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+
 body {
 	font-family: 'Roboto Condensed';
 	font-size: 1.2em;
@@ -357,6 +361,29 @@ blockquote {
   font-size: 1.1rem;
 }
 
+/*Testimonials small*/
+.tm-testimonials-carousel-small {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.tm-testimonial-item-small {
+  max-width: 97px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tm-testimonial-item-small img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.tm-testimonial-item-small figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
 /* Work */
 
 .tm-section-desc {
@@ -366,8 +393,13 @@ blockquote {
 }
 
 .tm-gallery-container {
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tm-gallery-container-small {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .tm-gallery-item {
@@ -543,7 +575,7 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-container-gallery {
-	padding-top: 30px;
+	padding-top: 20px;
 	}
 
 /* Contact */
